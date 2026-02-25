@@ -5,5 +5,5 @@
 * [🤖 Guia IA (MCP)](pt/mcp-context.md)
 
 **Idiomas**
-* [🇺🇸 English](en/)
-* [🇪🇸 Español](es/)
+* [🇺🇸 Inglês](en/)
+* [🇪🇸 Espanhol](es/)

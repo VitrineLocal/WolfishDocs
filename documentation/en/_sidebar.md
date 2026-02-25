@@ -1,9 +1,9 @@
-* [🏠 Início](pt/README.md)
-* [🚀 Instalação](pt/instalacao.md)
-* [💻 Comandos](pt/comandos.md)
-* [💡 Exemplos](pt/exemplos.md)
-* [🤖 Guia IA (MCP)](pt/mcp-context.md)
+* [🏠 Home](en/README.md)
+* [🚀 Installation](en/instalacao.md)
+* [💻 Commands](en/comandos.md)
+* [💡 Examples](en/exemplos.md)
+* [🤖 AI Guide (MCP)](en/mcp-context.md)
 
-**Idiomas**
-* [🇺🇸 English](en/)
-* [🇪🇸 Español](es/)
+**Languages**
+* [🇧🇷 Portuguese](pt/)
+* [🇪🇸 Spanish](es/)
