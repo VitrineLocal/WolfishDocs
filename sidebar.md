@@ -1,0 +1,5 @@
+* [🏠 Início](README.md)
+* [🚀 Instalação](instalacao.md)
+* [💻 Comandos & Uso](comandos.md)
+* [💡 Exemplos Práticos](exemplos.md)
+* [🤖 Guia para IAs (MCP)](mcp-context.md)
