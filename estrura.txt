@@ -1,0 +1,10 @@
+/ (raiz do seu repositório)
+├── index.html          # O "motor" do Docsify
+├── .nojekyll           # Avisa ao GitHub para não processar o Markdown
+├── docs/               # A pasta que o seu Servidor MCP vai ler
+│   ├── README.md       # Página inicial do manual
+│   ├── instalacao.md   # Setup em Windows/Linux
+│   ├── comandos.md     # Guia da CLI e agregação
+│   ├── exemplos.md     # Casos de uso práticos
+│   └── mcp-context.md  # Instruções específicas para IAs
+└── sidebar.md          # Menu lateral do site
