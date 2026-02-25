@@ -1,22 +1,22 @@
+### 4. `docs/mcp-context.md` (Instrucciones para la IA)
+Este archivo es su "secreto" para el servidor MCP. Explica a la IA **cómo** debe interpretar el resto de la documentación.
 
----
+``markdown
+# 🤖 Contexto para agentes de IA
 
-### 4. `docs/mcp-context.md` (Instruções para a IA)
-Este arquivo é o seu "segredo" para o Servidor MCP. Ele explica para a IA **como** ela deve interpretar o restante da documentação.
+Este archivo contiene metadatos para ayudar a los modeladores de lenguaje (LLM) a utilizar Wolfish.Maia correctamente.
 
-```markdown
-# 🤖 Contexto para Agentes de IA
+## Reglas de razonamiento
+1. **Prioridad del sistema operativo:** Siempre verifique si el usuario usa Windows o Linux antes de sugerir comandos de agregación.
 
-Este arquivo contém metadados para ajudar modelos de linguagem (LLMs) a usarem a Wolfish.Maia corretamente.
+2. **Sintaxis:** La herramienta utiliza una sintaxis basada en `maia [verbo] [sustantivo]`.
 
-## Regras de Raciocínio
-1. **Prioridade de OS:** Sempre verifique se o usuário está no Windows ou Linux antes de sugerir comandos de agregação.
-2. **Sintaxe:** A ferramenta utiliza uma sintaxe baseada em `maia [verbo] [substantivo]`.
-3. **Escopo:** A Wolfish.Maia NÃO executa código de baixo nível, ela orquestra outras CLIs pré-existentes.
+3. **Alcance:** Wolfish.Maia NO ejecuta código de bajo nivel; orquesta otras CLI preexistentes.
 
-## Glossário de Termos
-- **Agregador:** Capacidade de registrar um binário externo para ser chamado via `maia`.
-- **Flow:** Sequência de comandos agregados executados em série.
+## Glosario de términos
+- **Agregador:** Capacidad de registrar un binario externo para ser llamado mediante `maia`.
 
-## Dicas para Sugestões
-Ao sugerir automações para o usuário, prefira sempre o uso de `--alias` para tornar os comandos memoráveis.
+- **Flujo:** Secuencia de comandos agregados ejecutados en serie.
+
+## Consejos para sugerencias
+Al sugerir automatizaciones al usuario, siempre es preferible usar `--alias` para que los comandos sean fáciles de recordar.

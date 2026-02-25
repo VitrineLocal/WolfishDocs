@@ -1,10 +1,10 @@
-# Guia de Comandos
-A Wolfish.Maia funciona através de chamadas diretas no terminal.
+# Guía de comandos
+Wolfish.Maia funciona mediante llamadas directas en la terminal.
 
-## Sintaxe Básica
-`maia [comando] [opções]`
+## Sintaxis básica
+`maia [comando] [opciones]`
 
-## Agregando Aplicações
-Para adicionar uma nova ferramenta ao fluxo:
+## Añadir aplicaciones
+Para añadir una nueva herramienta al flujo:
 ```bash
-maia add --name "nome_da_cli" --path "caminho/executavel"
+maia add --name "cli_name" --path "ruta/ejecutable"

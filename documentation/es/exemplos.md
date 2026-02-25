@@ -1,12 +1,11 @@
+### 3. `docs/examples.md` (Casos de uso)
+La IA prefiere este archivo, ya que lo usará como base para sugerirte código.
 
----
+``markdown
+# 💡 Ejemplos prácticos
 
-### 3. `docs/exemplos.md` (Casos de Uso)
-Este arquivo é o preferido da IA, pois ela o usará como base para sugerir códigos para você.
-```markdown
-# 💡 Exemplos Práticos
+## 1. Integración de Git y Docker
+Crea un flujo que limpie los contenedores y realice un push simultáneo:
 
-## 1. Agregando o Git e o Docker
-Crie um fluxo que limpa containers e faz um push simultâneo:
 ```bash
 maia run "docker system prune -f && git push origin main"

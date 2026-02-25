@@ -1,12 +1,16 @@
-### 4. Como publicar no GitHub Pages
-1. No seu repositório no GitHub, vá em **Settings** > **Pages**.
-2. Em **Build and deployment**, escolha a branch `main` (ou `master`) e a pasta `/(root)`.
-3. Clique em salvar. Em minutos, seu site estará no ar em `https://seu-usuario.github.io`.
+### 4. Cómo publicar en páginas de GitHub
+1. En tu repositorio de GitHub, ve a **Configuración** > **Páginas**.
 
-### 5. Por que isso é bom para o seu MCP?
-Quando você for construir o servidor MCP (o `index.js` que fizemos antes), você vai configurar o `DOCS_DIR` para apontar exatamente para essa pasta `/docs`.
+2. En **Compilación e implementación**, selecciona la rama `main` (o `master`) y la carpeta `/(root)`.
 
-*   **O Humano** verá o site renderizado pelo Docsify.
-*   **A IA** lerá os arquivos `.md` brutos, que estão limpos e bem estruturados.
+3. Haz clic en guardar. En minutos, tu sitio estará disponible en `https://your-username.github.io`.
 
-Você quer que eu prepare o conteúdo do **`mcp-context.md`**, que seria um arquivo exclusivo para "explicar" para a IA como ela deve usar os outros manuais para te ajudar a programar?
+### 5. ¿Por qué esto es bueno para tu MCP?
+
+Al compilar el servidor MCP (el `index.js` que creamos antes), configurarás `DOCS_DIR` para que apunte exactamente a esta carpeta `/docs`.
+
+* **El usuario** verá el sitio renderizado por Docsify.
+
+* **La IA** leerá los archivos `.md` sin procesar, que están limpios y bien estructurados.
+
+¿Quieres que prepare el contenido del archivo **`mcp-context.md`**, que sería un archivo dedicado a "explicarle" a la IA cómo debe usar los otros manuales para ayudarle a programar?

@@ -1,12 +1,14 @@
-# 🚀 Instalação e Requisitos
+# 🚀 Installation and Requirements
 
-A **Wolfish.Maia** é compatível com Windows e Linux.
+**Wolfish.Maia** is compatible with Windows and Linux.
 
-## Requisitos
-- Node.js v18 ou superior.
-- Permissões de administrador/sudo para execução de comandos globais.
+## Requirements
+- Node.js v18 or higher.
+
+- Administrator/sudo permissions to execute global commands.
 
 ## Windows (PowerShell/CMD)
-1. Baixe o executável ou instale via npm:
-   ```bash
-   npm install -g wolfish-maia
+1. Download the executable or install via npm:
+
+``bash
+npm install -g wolfish-maia

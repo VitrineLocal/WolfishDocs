@@ -1,22 +1,22 @@
+### 4. `docs/mcp-context.md` (Instructions for the AI)
+This file is your "secret" to the MCP Server. It explains to the AI ​​**how** it should interpret the rest of the documentation.
 
----
+``markdown
+# 🤖 Context for AI Agents
 
-### 4. `docs/mcp-context.md` (Instruções para a IA)
-Este arquivo é o seu "segredo" para o Servidor MCP. Ele explica para a IA **como** ela deve interpretar o restante da documentação.
+This file contains metadata to help Language Modelers (LLMs) use Wolfish.Maia correctly.
 
-```markdown
-# 🤖 Contexto para Agentes de IA
+## Reasoning Rules
+1. **OS Priority:** Always check if the user is on Windows or Linux before suggesting aggregation commands.
 
-Este arquivo contém metadados para ajudar modelos de linguagem (LLMs) a usarem a Wolfish.Maia corretamente.
+2. **Syntax:** The tool uses a syntax based on `maia [verb] [noun]`.
 
-## Regras de Raciocínio
-1. **Prioridade de OS:** Sempre verifique se o usuário está no Windows ou Linux antes de sugerir comandos de agregação.
-2. **Sintaxe:** A ferramenta utiliza uma sintaxe baseada em `maia [verbo] [substantivo]`.
-3. **Escopo:** A Wolfish.Maia NÃO executa código de baixo nível, ela orquestra outras CLIs pré-existentes.
+3. **Scope:** Wolfish.Maia does NOT execute low-level code; it orchestrates other pre-existing CLIs.
 
-## Glossário de Termos
-- **Agregador:** Capacidade de registrar um binário externo para ser chamado via `maia`.
-- **Flow:** Sequência de comandos agregados executados em série.
+## Glossary of Terms
+- **Aggregator:** Ability to register an external binary to be called via `maia`.
 
-## Dicas para Sugestões
-Ao sugerir automações para o usuário, prefira sempre o uso de `--alias` para tornar os comandos memoráveis.
+- **Flow:** Sequence of aggregated commands executed in series.
+
+## Tips for Suggestions
+When suggesting automations to the user, always prefer the use of `--alias` to make the commands memorable.

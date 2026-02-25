@@ -5,4 +5,4 @@
   * [🇺🇸 English](en/)
   * [🇪🇸 Español](es/)
 
-* [GitHub](https://github.com)
+* [Wolfish Docs](https://github.com/VitrineLocal/WolfishDocs)

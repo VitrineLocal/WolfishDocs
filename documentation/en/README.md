@@ -1,6 +1,8 @@
 # 🐺 Wolfish.Maia
-**Wolfish.Maia** é um orquestrador CLI poderoso que agrega múltiplas ferramentas de terminal em uma única interface de automação.
+**Wolfish.Maia** is a powerful CLI orchestrator that aggregates multiple terminal tools into a single automation interface.
 
-- **Multiplataforma:** Windows (CMD/Powershell) e Linux (Bash).
-- **Agregador:** Execute fluxos complexos chamando outras CLIs.
-- **Extensível:** Feito para automatizar tarefas repetitivas.
+- **Cross-platform:** Windows (CMD/Powershell) and Linux (Bash).
+
+- **Aggregator:** Execute complex flows by calling other CLIs.
+
+- **Extensible:** Made to automate repetitive tasks.
