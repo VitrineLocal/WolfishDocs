@@ -9,13 +9,26 @@
 <body>
   <div id="app">Carregando documentação...</div>
   <script>
-    window.$docsify = {
-      name: 'Wolfish Docs',
-      repo: 'VitrineLocal/WolfishDocs',
-      loadSidebar: true,
-      basePath: './documentation/', // Aponta para sua pasta de conteúdo
-      auto2top: true
+    if (typeof window !== 'undefined' && window.location.hash === '') {
+      const lang = navigator.language.split('-')[0]; // Pega 'pt', 'en' ou 'es'
+      const supported = ['pt', 'en', 'es'];
+      const target = supported.includes(lang) ? lang : 'en'; // Inglês como padrão
+      window.location.hash = `#/${target}/`;
     }
+
+    window.$docsify = {
+      name: 'WolfishTools',
+        loadNavbar: true,    // Habilita o uso de _navbar.md
+        loadSidebar: true,   // Mantém o menu lateral
+        alias: {
+          '/.*/_navbar.md': '/_navbar.md',  // Usa a mesma barra de navegação para todas as pastas
+          '/.*/_sidebar.md': '/_sidebar.md' // Usa a sidebar específica de cada idioma
+        },
+      fallbackLanguages: ['en'], // Se não achar em PT, mostra em EN
+      basePath: '/documentation/',
+      relativePath: true
+    }
+
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
